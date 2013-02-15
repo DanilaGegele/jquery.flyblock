@@ -18,7 +18,7 @@
                 toggle();
             });
             function toggle(){
-                if($window.scrollTop()>= options.offset){
+                if($window.scrollTop() >= options.offset){
                     if(!$self.is(':visible')){
                         $self.fadeIn(options.fadeSpeed, function(){$self.trigger('flyblock.fadeIn');});
                     }
